@@ -548,7 +548,7 @@
         };
 
         document.getElementById('saveSettingsBtn').onclick = () => {
-            localStorage.setItem('scraper_key', document.getElementById('setApiKey').value);
+            localStorage.setItem('scraper_key', document.getElementById('scraperApiKey').value);
             localStorage.setItem('cms_source_fmt', document.getElementById('sourceFormatSelect').value);
             localStorage.setItem('cms_post_prefix', document.getElementById('postPrefixInput').value);
             localStorage.setItem('cms_post_suffix', document.getElementById('postSuffixInput').value);
